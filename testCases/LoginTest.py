@@ -23,6 +23,7 @@ class LoginTest(unittest.TestCase):
         lp.setUserName(self.username)
         lp.setPassword(self.password)
         #lp.clickLogin()
+
         time.sleep(4)
 
         self.assertNotEqual("Veera Pulapakura",self.driver.title,"Both are equal")
